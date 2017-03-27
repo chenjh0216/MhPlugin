@@ -62,7 +62,7 @@ public class TimerFunc implements IFunc {
 
 		param.alpha = 1.0f;
 
-		param.gravity = Gravity.CENTER_VERTICAL | Gravity.LEFT;   //调整悬浮窗口左侧居中
+		param.gravity = Gravity.CENTER;   //调整悬浮窗口左侧居中
 		//以屏幕左上角为原点，设置x、y初始值
 		param.x = 0;
 		param.y = 0;
